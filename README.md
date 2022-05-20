@@ -30,6 +30,9 @@ Install all modules
 
 Starting the server
 >python manage.py
+
+***
+## Tips 🍪
 ***
 ## API 🍪
 -     /basic_skill || POST
