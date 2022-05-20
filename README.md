@@ -3,7 +3,23 @@
 
 ***
 ## Task description 🍪
+- User registration;
+- Authorization of the user;
+- Personal account of the user;
+- List of users.
 
+In the personal cabinet you can add / delete skills as a Tag.
+Tags and values can be chosen from those available in the database or you can add your own.
+The added tags and values must also be included in the database and offered for to choose in the future.
+
+
+Example of the personal account:
+
+Ivanov Ivanovich
+Skills: Python, Django, SQL, Async, REST
+Languages: English, Chinese
+Hobbies - music
+ + Add Skill
 
 ***
 ## Basic run 🍪
@@ -28,6 +44,10 @@ Starting the server
 
 ***
 ## Tips 🍪
+
+You can add or delete a skill, CTRL + left button. Added skills will be highlighted.
+
+
 ***
 ## API 🍪
 -     /basic_skill || POST
