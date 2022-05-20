@@ -50,7 +50,7 @@ If you save fields without highlighting, they are removed from the profile
 
 
 ***
-## API 🍪
+## API 🍪 (In progress)
 -     /basic_skill || POST
       Some text
 >      
@@ -58,18 +58,18 @@ If you save fields without highlighting, they are removed from the profile
 >                                             
 >                                          
 >      
->      {"email": "test@gmail.com","password": "Никита,сДР!"}
+>      test_requests: {"email": "test@gmail.com","password": "Никита,сДР!"}
 ----
 
 -      /profile || POST
        Some text
 >      
 >       Parameters:                         Response:
->        
+>       
 >                        
 >           
 >      
->      {'name': 'juice', 'email': 'test@test.com', 'password': 'test'}
+>      test_requests: {'name': 'juice', 'email': 'test@test.com', 'password': 'test'}
 ----
 
 -      /sign_in || POST
@@ -82,7 +82,7 @@ If you save fields without highlighting, they are removed from the profile
 >                                      
 >                                                       
 >      
->      {'messages': 'АБРАКАДАБРА'}
+>      test_requests: {'messages': 'АБРАКАДАБРА'}
 ----
 
 -      /sign_up || GET
