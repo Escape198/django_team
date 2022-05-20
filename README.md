@@ -46,6 +46,7 @@ Starting the server
 ## Tips 🍪
 
 You can add or delete a skill, CTRL + left button. Added skills will be highlighted.
+If you save fields without highlighting, they are removed from the profile
 
 
 ***
