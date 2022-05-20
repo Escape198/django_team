@@ -1,6 +1,6 @@
-## 🍪
+## Tech🍪
 
-Tech
+
 
 ***
 ## Task description 🍪
