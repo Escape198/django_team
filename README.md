@@ -1,5 +1,5 @@
 ## Navigation
-![image](https://user-images.githubusercontent.com/101140452/169601332-479b3116-7204-4ff6-b7aa-5e58412076da.png)
+![image](https://user-images.githubusercontent.com/101140452/169602500-cd269430-73f0-4c22-a1fc-0946c547c8f5.png)
 
 
 ## Technologies used in the project 🍪
