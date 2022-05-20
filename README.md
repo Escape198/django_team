@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/101140452/169601332-479b3116-7204-4ff6-b7aa-5e58412076da.png)
 
 
-## Tech🍪
+## Technologies used in the project 🍪
 
 
 
@@ -11,6 +11,7 @@
 
 
 ***
+## Basic run 🍪
 Create a virtual environment
 >python -m venv env
 
