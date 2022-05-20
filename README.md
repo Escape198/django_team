@@ -58,7 +58,7 @@ If you save fields without highlighting, they are removed from the profile
 >                                             
 >                                          
 >      
->      test_requests: {"email": "test@gmail.com","password": "Никита,сДР!"}
+>      test_request: {"email": "test@gmail.com","password": "Никита,сДР!"}
 ----
 
 -      /profile || POST
@@ -69,7 +69,7 @@ If you save fields without highlighting, they are removed from the profile
 >                        
 >           
 >      
->      test_requests: {'name': 'juice', 'email': 'test@test.com', 'password': 'test'}
+>      test_request: {'name': 'juice', 'email': 'test@test.com', 'password': 'test'}
 ----
 
 -      /sign_in || POST
@@ -82,7 +82,7 @@ If you save fields without highlighting, they are removed from the profile
 >                                      
 >                                                       
 >      
->      test_requests: {'messages': 'АБРАКАДАБРА'}
+>      test_request: {'messages': 'АБРАКАДАБРА'}
 ----
 
 -      /sign_up || GET
