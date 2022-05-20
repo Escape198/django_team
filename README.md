@@ -3,6 +3,7 @@
 
 
 ## Technologies used in the project 🍪
+Django(4.0.4)
 
 
 
