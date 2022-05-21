@@ -56,6 +56,8 @@ The default.jpg photo and quotes from Harry Potter are inserted automatically if
 
 ![image](https://user-images.githubusercontent.com/101140452/169651344-f6b68c62-8f14-4edb-9a4e-0b04f56179e3.png)
 
+Also, superuser does not appear in the user list. But if you logged in via /admin and then went to /home, 
+the user will be "Authorized" because I used a generic user model in the project.
 ***
 ## API 🍪 (In progress)
 -     /basic_skill || POST
