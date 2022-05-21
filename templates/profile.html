@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+   body {
+    margin-right: 25%;
+    margin-left: 25%;
+   }
+   .panel {
+    background: #007083;
+    color: white;
+    padding: 10px;
+    text-align: justify;
+   }
+  </style>
+    <div class="four"><h1>Profile</h1></div>
+    Full name: {{ user.full_name }}<br>
+    Age: {{ user.age }}<br>
+    About me: {{ user.about }}<br>
+    Resume: {{ user.url }}<br>
+    Skills: {{ user.all_basic_skills }}<br>
+    Languages: {{ user.all_languages }}<br>
+    {% if user.hobby %}Hobby - {{ user.hobby }}<br>{% endif %}
+    <a href="{% url 'basic_skill' %}">+ Add Skill</a><br><br>
+    {% if user.photo %}<img src="{{ user.photo.url }}" alt="{{ user.name }}">{% endif %}<br>
+{% endblock %}

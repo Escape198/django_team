@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+   body {
+    margin-right: 25%;
+    margin-left: 25%;
+   }
+   .panel {
+    background: #007083;
+    color: white;
+    padding: 10px; 
+    text-align: justify;
+   }
+  </style>
+    <div class="four"><h1>Add skill</h1></div>
+    Your skills: {{ user.all_basic_skills }}
+
+    <form method="POST" class="post-form">{% csrf_token %}
+    {{ user_basic_skills.as_table }}
+        <hr>
+    {{ new_basic_skills.as_table }}<br>
+    <button type="submit"
+    <div class="al-flex-box al-flex-box_align_center al-flex-box_direction_row al-flex-box_display_flex al-flex-box_height_available al-flex-box_justify_center al-flex-box_width_available al-flex-box_wrap_nowrap"
+    title="">Save</div>
+</form>
+{% endblock %}

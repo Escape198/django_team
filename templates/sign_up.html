@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+   body {
+    margin-right: 25%;
+    margin-left: 25%;
+   }
+   .panel {
+    background: #007083;
+    color: white;
+    padding: 10px;
+    text-align: justify;
+   }
+  </style>
+<div class="four"><h1>Sign up</h1></div>
+<form method="POST" class="post-form">{% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit"
+    <div class="al-flex-box al-flex-box_align_center al-flex-box_direction_row al-flex-box_display_flex al-flex-box_height_available al-flex-box_justify_center al-flex-box_width_available al-flex-box_wrap_nowrap"
+    title="">Sign up</div>
+</form>
+{% endblock %}
