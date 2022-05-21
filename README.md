@@ -62,7 +62,7 @@ The default.jpg photo and quotes from Harry Potter are inserted automatically if
       Some text
 >      
 >      Parameters:                         Response:
->                                             
+>      w | string                          w | string             
 >                                          
 >      
 >      test_request: {"email": "test@gmail.com","password": "Никита,сДР!"}
@@ -72,7 +72,7 @@ The default.jpg photo and quotes from Harry Potter are inserted automatically if
        Some text
 >      
 >       Parameters:                         Response:
->       
+>       w | string                          w | string
 >                        
 >           
 >      
@@ -83,7 +83,7 @@ The default.jpg photo and quotes from Harry Potter are inserted automatically if
        Some text
 >      
 >       Parameters:                         Response:
->       
+>       w | string                          w | string
 >       
 >                                         
 >                                      
@@ -96,7 +96,7 @@ The default.jpg photo and quotes from Harry Potter are inserted automatically if
        Some text
 >      
 >       Parameters:                         Response:
->      
+>       w | string                          w | string
 >
 >                                           
 >                                           
@@ -107,7 +107,7 @@ The default.jpg photo and quotes from Harry Potter are inserted automatically if
        Some text
 >      
 >       Parameters:                         Response:
->      
+>       w | string                          w | string
 >
 >                                           
 >                                           
