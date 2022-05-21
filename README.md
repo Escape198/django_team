@@ -82,7 +82,7 @@ If you save fields without highlighting, they are removed from the profile
 >                                      
 >                                                       
 >      
->      test_request: {'messages': 'АБРАКАДАБРА'}
+>      test_request: {'messages': '123'}
 ----
 
 -      /sign_up || GET
