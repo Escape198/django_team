@@ -50,6 +50,11 @@ If you save fields without highlighting, they are removed from the profile
 
 ![image](https://user-images.githubusercontent.com/101140452/169648321-2c2833fb-0d0f-469e-a57d-9b7006c49f1f.png)
 
+The default.jpg photo and quotes from Harry Potter are inserted automatically if you don't fill in anything
+
+![image](https://user-images.githubusercontent.com/101140452/169651296-d827c2e5-6610-40fd-9b30-0ce50eac0d34.png)
+
+![image](https://user-images.githubusercontent.com/101140452/169651344-f6b68c62-8f14-4edb-9a4e-0b04f56179e3.png)
 
 ***
 ## API 🍪 (In progress)
